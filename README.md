@@ -1,10 +1,10 @@
-# CAISO Load Forecasting Challenge
+# CAISO Load Forecast
 
-This repository contains a solution to the CAISO Load Forecasting Challenge, which involves developing a forecasting library and applying it to a specific task of forecasting the hourly system load for the California Independent System Operator (CAISO).
+This repository aims to forecast the hourly system load of the California Independent System Operator (CAISO), which is essentially an aggregate of all electricity demand in California (~90% of electricity consumption).  The terms 'demand' and 'load' are used interchangeably.  Load is important because it allows both the system operator and market participants to optimize their operations and minimize the probability of a 'loss of load' event (blackout).
 
-## Challenge Requirements
+## Forecast Requirements
 
-The goal of this challenge is to evaluate Python software development skills and the ability to apply machine learning to a forecasting problem. The challenge involves developing a forecasting library and using it to forecast the CAISO system load. The specific requirements are as follows:
+The goal of this project is to apply various machine learning algorithms to a forecasting problem. The challenge involves developing a forecasting library and using it to forecast the CAISO system load. The specific requirements are as follows:
 
 1. Develop a forecasting library that can be used for various forecasting tasks.
 2. Create models for forecasting, including Linear Regression, XGBoost, and Random Forest.
@@ -23,7 +23,7 @@ The goal of this challenge is to evaluate Python software development skills and
 
 ## How to Use
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your environment.
 
 2. Ensure you have the required libraries installed:
 pip install pandas numpy scikit-learn xgboost matplotlib
