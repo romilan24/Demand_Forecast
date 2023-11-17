@@ -46,9 +46,6 @@ X_train, X_test, y_train, y_test = split_data(df)
 # Initialize dictionaries to store forecasts
 hourly_forecasts = {model_name: [] for model_name in models}
 
-#hourly_forecasts = {}
-mape_dict = {}
-
 ##Model fit##
 # Loop through models and hours for training
 for model_name in models:
