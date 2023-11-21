@@ -29,7 +29,7 @@ train_end_date = pd.to_datetime('2023-07-30').date()
 predict_date = pd.to_datetime('2023-07-31').date()
 
 #library, change to file path where .csv files located
-path = 'C:/Users//'
+path = 'C:/Users/../../'
 
 # Loads the data, creates date and hour columns, creates lags, and holiday col
 data = load_data(path + 'caiso_system_load.csv')
